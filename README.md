@@ -16,7 +16,7 @@ Aplikasi ini memiliki 5 modul utama yang dapat diakses melalui bilah navigasi:
 2. **📊 Eksplorasi Data (EDA)**: Visualisasi interaktif (analisis distribusi, korelasi fitur, scatter plot, dan tren tahunan) menggunakan **Plotly** dan **Matplotlib/Seaborn**.
 3. **🤖 Model & Evaluasi**: Melatih dan mengevaluasi performa model Machine Learning secara real-time. Membandingkan algoritma berdasarkan metrik *Accuracy*, *Precision*, *Recall*, *F1-Score*, *Cross-Validation Score*, serta menampilkan kurva ROC.
 4. **🔮 Prediksi Mandiri**: Form interaktif untuk memprediksi status stunting kelurahan secara cepat berdasarkan input manual parameter balita.
-5. **📁 Upload Data**: Fitur klasifikasi massal (*batch prediction*) dengan mengunggah file dataset baru dalam format CSV atau Excel.
+5. **📁 Upload Data**: Fitur klasifikasi massal (batch prediction) dengan mengunggah file dataset baru dalam format CSV atau Excel.
 
 ---
 
