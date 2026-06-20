@@ -16,7 +16,7 @@ Aplikasi ini memiliki 5 modul utama yang dapat diakses melalui bilah navigasi:
 2. **📊 Eksplorasi Data (EDA)**: Visualisasi interaktif (analisis distribusi, korelasi fitur, scatter plot, dan tren tahunan) menggunakan **Plotly** dan **Matplotlib/Seaborn**.
 3. **🤖 Model & Evaluasi**: Melatih dan mengevaluasi performa model Machine Learning secara real-time. Membandingkan algoritma berdasarkan metrik *Accuracy*, *Precision*, *Recall*, *F1-Score*, *Cross-Validation Score*, serta menampilkan kurva ROC.
 4. **🔮 Prediksi Mandiri**: Form interaktif untuk memprediksi status stunting kelurahan secara cepat berdasarkan input manual parameter balita.
-5. **📁 Upload Data**: Fitur klasifikasi massal (*batch prediction*) dengan mengunggah file dataset baru dalam format CSV atau Excel.
+5. **📁 Upload Data**: Fitur klasifikasi massal (batch prediction) dengan mengunggah file dataset baru dalam format CSV atau Excel.
 
 ---
 
@@ -120,13 +120,13 @@ Data didapatkan dari portal **Open Data Jabar** dengan rincian fitur input sebag
 
 | No | Nama | NIM | Peran/Kontribusi |
 |---|---|---|---|
-| 1 | [Nama Anggota 1] | [NIM 1] | Data Preprocessing & Modeling |
-| 2 | [Nama Anggota 2] | [NIM 2] | UI/UX & Streamlit Development |
-| 3 | [Nama Anggota 3] | [NIM 3] | Data Collection & EDA Analysis |
-| 4 | [Nama Anggota 4] | [NIM 4] | Model Evaluation & Testing |
-| 5 | [Nama Anggota 5] | [NIM 5] | Documentation & Presentation |
+| 1 | [Muhamad Rizki yunara] | [20124101] | Data Preprocessing & Modeling |
+| 2 | [Ikhsan Amrillah Arsy] | [20124104] | UI/UX & Streamlit Development |
+| 3 | [Rizki Fatimah Az-zahra] | [20124099] | Data Collection & EDA Analysis |
+| 4 | [Muhamad Luthfi Almanfaluthi] | [20124092] | Model Evaluation & Testing |
+| 5 | [Rio Aji Pamungkas] | [20124113] | Documentation & Presentation |
 
-*(Silakan edit tabel di atas sesuai dengan anggota kelompok Anda)*
+
 
 ---
 
