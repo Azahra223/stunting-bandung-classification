@@ -28,16 +28,3 @@ Jumlah Balita Stunting Berdasarkan Kelurahan di Kota Bandung
 ```bash
 pip install -r requirements.txt
 streamlit run app/app.py
-
-
----
-
-## Branch Strategy
-
-Karena kalian cuma 3 orang aktif, jangan terlalu rumit.
-
-Buat:
-
-```text
-main
-develop
