@@ -16,6 +16,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import sys
 import os
+import joblib
 
 # Tambahkan root project ke path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -39,6 +40,9 @@ from models.model_utils import (
     get_feature_importance,
     cross_validate_model,
 )
+
+MODEL_PATH = 'models/trained_model.pkl'
+SCALER_PATH = 'models/scaler.pkl'
 
 # ============================================================
 # PAGE CONFIG
@@ -251,6 +255,19 @@ COLOR_PALETTE = [
 ]
 COLOR_STUNTING = '#ef4444'
 COLOR_TIDAK = '#10b981'
+
+
+# ============================================================
+# MODEL CACHING
+# ============================================================
+@st.cache_resource
+def load_trained_model():
+    """Load pre-trained model dan scaler dari file .pkl."""
+    if os.path.exists(MODEL_PATH) and os.path.exists(SCALER_PATH):
+        model = joblib.load(MODEL_PATH)
+        scaler = joblib.load(SCALER_PATH)
+        return model, scaler
+    return None, None
 
 
 # ============================================================
