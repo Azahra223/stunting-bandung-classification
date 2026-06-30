@@ -86,7 +86,7 @@ streamlit run app.py
 | 2 | Ikhsan Amrillah Arsy | 20124104 | UI/UX & Streamlit Development |
 | 3 | Rizki Fatimah Az-zahra | 20124099 | Data Collection & EDA |
 | 4 | Muhamad Luthfi Almanfaluthi | 20124092 | Model Evaluation & Testing |
-| 5 | Rio Aji Pamungkas | 20124113 | Documentation & Presentation |
+| 5 | Rio | 20124113 | Documentation & Presentation |
 
 ## 📝 Lisensi
 MIT License
